@@ -3962,7 +3962,7 @@
 		)
 		(uuid "7f299415-ebca-4381-9781-921612bb9f75")
 	)
-	(text "EOM path atten (12.5 dB)"
+	(text "DEMOD path atten (7 dB)"
 		(exclude_from_sim no)
 		(at 201.422 146.812 0)
 		(effects
@@ -5858,30 +5858,6 @@
 			)
 		)
 	)
-	(global_label "PORT1_POST_amp"
-		(shape input)
-		(at 195.58 129.54 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4a140355-4452-446d-a242-e8455b23b739")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.8431 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "V_CONTROL"
 		(shape input)
 		(at 219.71 101.6 0)
@@ -6002,6 +5978,30 @@
 			)
 		)
 	)
+	(global_label "PORT2_POST_amp"
+		(shape input)
+		(at 195.58 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "77db0dfd-a6d4-4817-93f6-3db4ece52daf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.8431 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "CON"
 		(shape input)
 		(at 99.06 35.56 90)
@@ -6015,6 +6015,30 @@
 		(uuid "8afcc56c-6957-4bae-8fc4-300aa07043b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 99.06 28.6438 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "10MHz_DEMOD"
+		(shape input)
+		(at 208.28 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "96af8781-cdc9-4440-9802-a103457f20c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.9327 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6231,30 +6255,6 @@
 		(uuid "f6a43a92-b0ec-4d25-970f-dd70569cff7f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 92.9133 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "10MHz_EOM"
-		(shape input)
-		(at 208.28 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f7b87089-96be-4a98-9213-feb43e7ecf47")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.3927 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
