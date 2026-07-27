@@ -1,0 +1,184 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "SCPHS-13.6+"
+   (description "RF IC Phase Shifter Cellular, DCS, PCS 10MHz ~ 16MHz 360 Phase Shift")
+   (family "ANA")
+   (package "SCPHS136")
+   (attribute "Datasheet Link" "https://www.minicircuits.com/pdfs/SCPHS-13.6+.pdf?srsltid=AfmBOood8OJ5uavXDNUtbAfkLWqTrYLA4ByT_aWsjahEDcoRM0afmWrr")
+   (attribute "Geometry.Height" "6.35mm")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Manufacturer_Name" "Mini-Circuits")
+   (attribute "Manufacturer_Part_Number" "SCPHS-13.6+")
+   (gate
+    (symbol "SCPHS-13.6+")
+    (pin "IN" 1 PS)
+    (pin "GROUND_1" 2 PS)
+    (pin "GROUND_2" 3 PS)
+    (pin "GROUND_3" 4 PS)
+    (pin "GROUND_4" 5 PS)
+    (pin "OUT" 6 PS)
+    (pin "GROUND_5" 7 PS)
+    (pin "GROUND_6" 8 PS)
+    (pin "GROUND_7" 9 PS)
+    (pin "BIAS_1" 10 PS)
+    (pin "BIAS_2" 11 PS)
+    (pin "GROUND_8" 12 PS)
+    (pin "GROUND_9" 13 PS)
+    (pin "GROUND_10" 14 PS)
+   )
+  )
+  (symbol "SCPHS-13.6+"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1400 100) (pt 1400 -700) (pt 200 -700) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -500) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -600) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 -600) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 -500) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SCPHS136"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -10.16 11.05)
+      (pt 10.16 11.05)
+      (pt 10.16 -11.05)
+      (pt -10.16 -11.05)
+      (pt -10.16 11.05))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -11.16 12.555)
+      (pt 11.16 12.555)
+      (pt 11.16 -12.555)
+      (pt -11.16 -12.555)
+      (pt -11.16 12.555))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -8.6 11.05)
+      (pt -10.16 11.05)
+      (pt -10.16 -11.05)
+      (pt -8.6 -11.05))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 8.6 11.05)
+      (pt 10.16 11.05)
+      (pt 10.16 -11.05)
+      (pt 8.6 -11.05))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -7.62 -12.1)
+      (arc (pt -7.620 -12.100) (pt -7.670 -12.100) (pt -7.570 -12.000) (start 180.0) (sweep -90.0))
+      (pt -7.62 -12)
+      (arc (pt -7.620 -12.000) (pt -7.670 -12.100) (pt -7.570 -12.000) (start 180.0) (sweep 90.0))
+      (pt -7.62 -12.1))))
+   (leg 1 (pt -7.620 -10.795) (padstack 0))
+   (leg 2 (pt -5.080 -10.795) (padstack 0))
+   (leg 3 (pt -2.540 -10.795) (padstack 0))
+   (leg 4 (pt 0.000 -10.795) (padstack 0))
+   (leg 5 (pt 2.540 -10.795) (padstack 0))
+   (leg 6 (pt 5.080 -10.795) (padstack 0))
+   (leg 7 (pt 7.620 -10.795) (padstack 0))
+   (leg 8 (pt 7.620 10.795) (padstack 0))
+   (leg 9 (pt 5.080 10.795) (padstack 0))
+   (leg 10 (pt 2.540 10.795) (padstack 0))
+   (leg 11 (pt 0.000 10.795) (padstack 0))
+   (leg 12 (pt -2.540 10.795) (padstack 0))
+   (leg 13 (pt -5.080 10.795) (padstack 0))
+   (leg 14 (pt -7.620 10.795) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (square 1.520))
+   )
+   (model "SCPHS-13.6+.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

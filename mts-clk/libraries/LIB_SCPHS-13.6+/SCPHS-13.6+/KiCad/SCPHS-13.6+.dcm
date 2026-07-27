@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SCPHS-13.6+
+D RF IC Phase Shifter Cellular, DCS, PCS 10MHz ~ 16MHz 360 Phase Shift
+K
+F https://www.minicircuits.com/pdfs/SCPHS-13.6+.pdf?srsltid=AfmBOood8OJ5uavXDNUtbAfkLWqTrYLA4ByT_aWsjahEDcoRM0afmWrr
+$ENDCMP
+#
+#End Doc Library

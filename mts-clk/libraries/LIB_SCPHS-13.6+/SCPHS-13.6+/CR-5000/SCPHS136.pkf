@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "SCPHS136"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "SCPHS136")
+        (spec "default")
+    )
+)

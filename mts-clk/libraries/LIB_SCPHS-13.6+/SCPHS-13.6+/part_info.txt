@@ -1,0 +1,9 @@
+Manufacturer=Mini-Circuits
+PartNumber=SCPHS-13.6+
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=14
+Version=1.4
+Released=2025-10-07 08:36:38
+Downloaded=2026-07-27 07:39:37
+3D=Y

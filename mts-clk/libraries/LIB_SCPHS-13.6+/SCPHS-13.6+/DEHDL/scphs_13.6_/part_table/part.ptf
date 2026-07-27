@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SCPHS_13.6_'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Mini-Circuits", "SCPHS-13.6+" (!) = "", "SCPHS136", "Other", "", "", "RF IC Phase Shifter Cellular, DCS, PCS 10MHz ~ 16MHz 360 Phase Shift", "https://www.minicircuits.com/pdfs/SCPHS-13.6+.pdf?srsltid=AfmBOood8OJ5uavXDNUtbAfkLWqTrYLA4ByT_aWsjahEDcoRM0afmWrr", "6.35 mm"
+END_PART
+
+END.

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SCPHS-13_6+"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-10-07-08:36:38)
+    (mountForm default
+        (footprintRef "SCPHS136")
+        (spec "System")
+    )
+)

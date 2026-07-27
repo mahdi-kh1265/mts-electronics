@@ -1,0 +1,16 @@
+.SCPHS-13.6-plus- :1 ;RF IC Phase Shifter Cellular, DCS, PCS 10MHz ~ 16MHz 360 Phase Shift
+SCPHS136
+*STM IC
+*NGS
+*PLB 1="IN" 2="GROUND_1" 3="GROUND_2" 4="GROUND_3" 5="GROUND_4" 6="OUT" 7="GROUND_5" 8="GROUND_6" 9="GROUND_7" 10="BIAS_1" 11="BIAS_2" 12="GROUND_8" 13="GROUND_9" 14="GROUND_10"
+*MXP 14
+*DFN SCPHS-13.6-plus-
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Manufacturer_Name (Mini-Circuits)
+~!Manufacturer_Part_Number (SCPHS-13.6+)
+~!Link Datasheet (https://www.minicircuits.com/pdfs/SCPHS-13.6+.pdf?srsltid=AfmBOood8OJ5uavXDNUtbAfkLWqTrYLA4ByT_aWsjahEDcoRM0afmWrr)
+~!Height (6.35mm)
+~!3D_Model (SCPHS-13.6+)
+SCPHS-13.6-plus-
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 
