@@ -217,9 +217,4 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# KiCad temporary lock files & local preferences
-*.lck
-*.kicad_prl
 
-# Editor history folders
-.history/
