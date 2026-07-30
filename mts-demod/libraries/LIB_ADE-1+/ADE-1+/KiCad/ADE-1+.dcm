@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADE-1+
+D RF Mixer Level 7, SMT Double Balanced Mixer, RF/LO Freq 0.5 - 500 MHz
+K
+F https://componentsearchengine.com/Datasheets/1/ADE-1+.pdf
+$ENDCMP
+#
+#End Doc Library

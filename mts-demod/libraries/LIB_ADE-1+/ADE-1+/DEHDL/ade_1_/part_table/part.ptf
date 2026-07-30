@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ADE_1_'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Mini-Circuits", "ADE-1+" (!) = "", "ADE1", "Other", "139-ADE-1", "https://www.mouser.co.uk/ProductDetail/Mini-Circuits/ADE-1%2b?qs=xZ%2FP%252Ba9zWqZNkkNe3uAsRQ%3D%3D", "RF Mixer Level 7, SMT Double Balanced Mixer, RF/LO Freq 0.5 - 500 MHz", "https://componentsearchengine.com/Datasheets/1/ADE-1+.pdf", "4.11 mm"
+END_PART
+
+END.

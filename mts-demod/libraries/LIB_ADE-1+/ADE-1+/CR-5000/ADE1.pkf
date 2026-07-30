@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "ADE1"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "ADE1")
+        (spec "default")
+    )
+)

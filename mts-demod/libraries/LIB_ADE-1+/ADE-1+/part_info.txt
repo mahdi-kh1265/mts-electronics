@@ -1,0 +1,9 @@
+Manufacturer=Mini-Circuits
+PartNumber=ADE-1+
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=6
+Version=1.5
+Released=2020-03-04 14:13:52
+Downloaded=2026-07-30 05:11:21
+3D=Y
