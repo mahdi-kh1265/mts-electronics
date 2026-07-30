@@ -5397,6 +5397,12 @@
 		(uuid "66b5f0d6-27ee-4433-ad01-b50f68297f12")
 	)
 	(junction
+		(at 166.37 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6732fff0-1f3e-4534-9e77-b349bbfc36e1")
+	)
+	(junction
 		(at 259.08 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8044,7 +8050,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M2_H4mm_9774040243"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 37.7952 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -8764,7 +8770,7 @@
 				)
 			)
 		)
-		(property "Footprint" "D8"
+		(property "Footprint" "OPA695:D8"
 			(at 40.64 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -10859,7 +10865,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ADE1"
+		(property "Footprint" "ADE-1+:ADE1"
 			(at 86.36 262.56 0)
 			(hide yes)
 			(show_name no)
@@ -13744,7 +13750,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DSG0008A"
+		(property "Footprint" "OPA858:DSG0008A"
 			(at 232.41 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -13965,6 +13971,85 @@
 			(project "mts-demod"
 				(path "/6eb90501-7697-4fa3-aaec-602e91aa8771"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 166.37 182.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0c08d7e-fb67-482f-82b7-9b4590d9179c")
+		(property "Reference" "TP1"
+			(at 168.91 178.3079 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 168.91 180.8479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro_Mini"
+			(at 171.45 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 166.37 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a742f74-9e60-480b-9b56-312164a52128")
+		)
+		(instances
+			(project "mts-demod"
+				(path "/6eb90501-7697-4fa3-aaec-602e91aa8771"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -14495,7 +14580,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CONN_SD-43045-005_08_MOL"
+		(property "Footprint" "430450812:CONN_SD-43045-005_08_MOL"
 			(at 113.03 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -16769,7 +16854,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 59.69 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -18320,7 +18405,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro_Mini"
 			(at 265.43 31.75 0)
 			(hide yes)
 			(show_name no)
