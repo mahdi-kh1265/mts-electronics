@@ -5379,6 +5379,12 @@
 		(uuid "5e49345b-4dea-4d8a-a69a-b5543b9a91b1")
 	)
 	(junction
+		(at 157.48 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fa6d9b3-e98d-4e45-a350-c6cd3025a308")
+	)
+	(junction
 		(at 31.75 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5529,6 +5535,12 @@
 		(uuid "b5cc9b95-54d3-4afd-8566-47c86f342ba7")
 	)
 	(junction
+		(at 153.67 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3470d39-35a8-415f-bb9c-d3855cd8814b")
+	)
+	(junction
 		(at 110.49 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5581,6 +5593,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d919f246-0cc2-45ba-9be5-937712d4d833")
+	)
+	(junction
+		(at 168.91 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9e5d3a8-13c5-4dc8-8b01-bb4b01b52951")
 	)
 	(junction
 		(at 158.75 29.21)
@@ -5952,6 +5970,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 99.06) (xy 157.48 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "318d0737-5200-484a-936b-a59599c0b4d8")
+	)
+	(wire
+		(pts
 			(xy 57.15 100.33) (xy 60.96 100.33)
 		)
 		(stroke
@@ -6122,7 +6150,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 106.68) (xy 153.67 107.95)
+			(xy 153.67 96.52) (xy 153.67 99.06)
 		)
 		(stroke
 			(width 0)
@@ -6309,6 +6337,16 @@
 			(type default)
 		)
 		(uuid "80f978f8-568c-4207-b648-2f1bf7fa6e6a")
+	)
+	(wire
+		(pts
+			(xy 153.67 99.06) (xy 153.67 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81b476dd-8651-4924-8be1-07b5e4a9f7b9")
 	)
 	(wire
 		(pts
@@ -6592,6 +6630,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 99.06) (xy 168.91 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7c2891c-eda9-4f20-8eaf-d9791b5fd656")
+	)
+	(wire
+		(pts
 			(xy 57.15 110.49) (xy 57.15 119.38)
 		)
 		(stroke
@@ -6869,6 +6917,16 @@
 			(type default)
 		)
 		(uuid "d5512f3c-a964-45ba-9b5a-1bee0ec3cfa5")
+	)
+	(wire
+		(pts
+			(xy 157.48 106.68) (xy 168.91 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d56e2682-4d6c-4bc7-91db-12ab5531a750")
 	)
 	(wire
 		(pts
@@ -8444,7 +8502,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DEMOD INPUT"
+		(property "Value" "RAW DEMOD ADC"
 			(at 226.06 127.2931 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8498,6 +8556,84 @@
 			(project "mts-demod"
 				(path "/6eb90501-7697-4fa3-aaec-602e91aa8771"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 168.91 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13cb3c8e-17a2-46d0-8540-bb66268bd52a")
+		(property "Reference" "#PWR039"
+			(at 168.91 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 168.91 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "30457ece-befe-4c48-95b5-34980515b42c")
+		)
+		(instances
+			(project "mts-demod"
+				(path "/6eb90501-7697-4fa3-aaec-602e91aa8771"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -11104,7 +11240,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 215.5952 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -11473,6 +11609,88 @@
 			(project "mts-demod"
 				(path "/6eb90501-7697-4fa3-aaec-602e91aa8771"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 157.48 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a3e1f6f-4830-493f-b676-d1bd6d19e399")
+		(property "Reference" "C40"
+			(at 161.29 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 161.29 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 158.4452 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 157.48 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "254a77a4-d534-4c78-b456-3b21142c246a")
+		)
+		(pin "1"
+			(uuid "bc2d31e7-464f-4259-bcb4-d47c356c267a")
+		)
+		(instances
+			(project "mts-demod"
+				(path "/6eb90501-7697-4fa3-aaec-602e91aa8771"
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -12073,7 +12291,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 246.0752 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -12276,6 +12494,88 @@
 			(project "mts-demod"
 				(path "/6eb90501-7697-4fa3-aaec-602e91aa8771"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 168.91 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "772eb7bd-9ab9-46ab-b378-c0e512b07100")
+		(property "Reference" "C41"
+			(at 172.72 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 172.72 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 169.8752 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 168.91 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c75f98f7-9962-432b-ba0a-7319bdca366b")
+		)
+		(pin "1"
+			(uuid "405b2371-31cc-4839-a944-fedb11ca917a")
+		)
+		(instances
+			(project "mts-demod"
+				(path "/6eb90501-7697-4fa3-aaec-602e91aa8771"
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -13082,7 +13382,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 153.67 106.68 0)
+		(at 153.67 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13092,7 +13392,7 @@
 		(dnp no)
 		(uuid "8e89092f-22eb-405d-994d-e1ec87cb5021")
 		(property "Reference" "#PWR030"
-			(at 153.67 110.49 0)
+			(at 153.67 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13103,7 +13403,7 @@
 			)
 		)
 		(property "Value" "+5VA_GVA"
-			(at 149.606 102.362 0)
+			(at 149.606 92.202 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13114,7 +13414,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 106.68 0)
+			(at 153.67 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13125,7 +13425,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 106.68 0)
+			(at 153.67 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13136,7 +13436,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 153.67 106.68 0)
+			(at 153.67 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15319,7 +15619,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 230.8352 72.39 0)
 			(hide yes)
 			(show_name no)
