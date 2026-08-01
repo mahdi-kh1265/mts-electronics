@@ -19433,8 +19433,8 @@
 	)
 	(via
 		(at 164.975 55.075)
-		(size 0.6)
-		(drill 0.3)
+		(size 0.42)
+		(drill 0.25)
 		(layers "F.Cu" "B.Cu")
 		(net "GND")
 		(uuid "535f7e97-10a1-4341-addd-be80f88181dc")
@@ -21739,8 +21739,8 @@
 	)
 	(via
 		(at 164.960499 55.8)
-		(size 0.6)
-		(drill 0.3)
+		(size 0.45)
+		(drill 0.25)
 		(layers "F.Cu" "B.Cu")
 		(net "GND")
 		(uuid "d5f4da88-fb27-4a94-8158-f6bd4aa0cf36")
