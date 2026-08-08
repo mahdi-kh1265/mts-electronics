@@ -14502,7 +14502,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1n"
+		(property "Value" "1nF"
 			(at 145.542 51.562 0)
 			(show_name no)
 			(do_not_autoplace no)
