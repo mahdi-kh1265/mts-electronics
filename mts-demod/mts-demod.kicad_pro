@@ -526,7 +526,7 @@
       "netlist": "",
       "plot": "demod-gerbers/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "mts-demod.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
